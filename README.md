@@ -1,6 +1,4 @@
----
-
-```markdown
+```
 # 🎥 Movie Data Analysis Project
 
 A data analysis project using movie data sourced from TMDB (The Movie Database). This project explores how movies have performed across several KPIs, uncovering trends related to budget, revenue, profit, and popularity.
@@ -87,14 +85,14 @@ KPIs were analyzed to evaluate each movie’s success from both a business and a
 - **Beauty and the Beast**  
 
 #### 📈 Best ROI (Return on Investment)
-- **Avatar** – 12x  
-- **Titanic** – 11x  
-- **Jurassic World** – 11x  
+- **Avatar** – $12M  
+- **Titanic** – $11M  
+- **Jurassic World** – $11M  
 
 #### 📉 Worst ROI
-- **Avengers: Age of Ultron** – 3x  
-- **Incredibles 2** – 6x  
-- **The Lion King** – 6x  
+- **Avengers: Age of Ultron** – $6M  
+- **Incredibles 2** – $6M 
+- **The Lion King** – $6M  
 
 #### 🗳️ Most Voted Movies
 - **Avatar** – 32,119 votes  
@@ -103,27 +101,53 @@ KPIs were analyzed to evaluate each movie’s success from both a business and a
 
 ---
 
-## ✅ Conclusion
+### 🔍 More Insights on Franchises vs. Standalone Movies
 
-This project provided valuable insights into the movie industry through the lens of data. We identified financially successful and underperforming films, recognized the power of franchises, and uncovered trends tied to audience engagement.
+#### 🎥 Franchise vs Standalone: Budget & Revenue
 
-### 🔍 Franchises vs. Standalone Movies
+Franchise movies dominate both in terms of production budget and total box office revenue.
 
-- **Franchise Dominance**:  
-  Franchises such as *Avengers*, *Avatar*, and *Jurassic World* consistently dominated in terms of both budget and revenue. These films benefited from existing fanbases, extended universes, and large-scale marketing, often leading to massive box office returns.
+![Franchise vs Standalone Budgets](images/franchise_vs_standalone_budget.png)
 
-- **Budget vs. ROI**:  
-  High budgets did not always correlate with high profits or ROI. For instance:
-  - *Avengers: Age of Ultron* had one of the highest budgets (~$365M) but only a **3x ROI**, making it one of the least efficient in terms of returns.
-  - In contrast, *Avatar* and *Titanic*—despite more modest budgets—achieved **12x and 11x ROIs**, respectively.
+- **Franchises** such as *Avengers*, *Avatar*, and *Jurassic World* consistently had the highest budgets.
+- These films benefit from existing audiences and perform well at the box office.
 
-- **Standalone Successes**:  
-  While fewer in number, some standalone movies—especially those with strong narratives or renowned directors—performed exceptionally well. *Titanic* is a prime example, combining emotional depth and cinematic quality with widespread appeal.
+#### 💰 Budget vs ROI: Does Spending More Pay Off?
+
+High budgets don’t always mean high returns.
+
+![ROI Comparison](images/roi_comparison.png)
+
+- *Avengers: Age of Ultron* had a massive budget (~$365M) but a relatively lower ROI (~3x).
+- *Avatar* and *Titanic* stood out with ROIs over **10x**, showing cost-efficiency and widespread appeal.
+
+---
+
+### 📈 Budget vs Revenue Correlation
+
+This scatter plot illustrates the relationship between movie budgets and their generated revenue.
+
+![Budget vs Revenue](images/budget_vs_revenue.png)
+
+- There is a **positive correlation** between budget and revenue, but with **notable outliers**.
+- Some lower-budget films performed surprisingly well.
+
+---
 
 ### 🔑 Key Takeaways:
-- **Franchises tend to bring big budgets and big returns**, but may suffer from **lower efficiency** (ROI) due to high costs.
-- **High budget ≠ high ROI**. Avengers: Age of Ultro proves that.
-- **Standalones can still compete**, especially when backed by compelling storytelling or direction, like the the Titanic and Avatar.
+- **Franchises** tend to bring big budgets and big returns, but not always proportinate ROIs.
+- Does high budget guarantee a successful movie? **High budget ≠ high ROI**. Success depends on cost efficiency and strategic storytelling. Titanic and Avatar prove this.
+- **Standalone films**, though riskier, can outperform when creatively executed, with effective stories and direction.
+
+These findings highlight how data analysis can provide strategic insights into the film industry’s dynamics.
+
+---
+
+## ✅ Conclusion
+
+This project provided valuable insights into the movie industry through the lens of data.
+
+Identified financially successful and underperforming films, I recognized the power of franchises, and uncovered trends tied to audience engagement.
 
 
 ---
