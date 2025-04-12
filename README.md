@@ -1,4 +1,4 @@
-```
+
 # 🎥 Movie Data Analysis Project
 
 A data analysis project using movie data sourced from TMDB (The Movie Database). This project explores how movies have performed across several KPIs, uncovering trends related to budget, revenue, profit, and popularity.
