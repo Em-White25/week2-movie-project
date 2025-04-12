@@ -107,7 +107,6 @@ KPIs were analyzed to evaluate each movie’s success from both a business and a
 
 Franchise movies dominate both in terms of production budget and total box office revenue.
 
-![Franchise vs Standalone Budgets](images/franchise_vs_standalone_budget.png)
 
 - **Franchises** such as *Avengers*, *Avatar*, and *Jurassic World* consistently had the highest budgets.
 - These films benefit from existing audiences and perform well at the box office.
@@ -116,7 +115,7 @@ Franchise movies dominate both in terms of production budget and total box offic
 
 High budgets don’t always mean high returns.
 
-![ROI Comparison](images/roi_comparison.png)
+
 
 - *Avengers: Age of Ultron* had a massive budget (~$365M) but a relatively lower ROI (~3x).
 - *Avatar* and *Titanic* stood out with ROIs over **10x**, showing cost-efficiency and widespread appeal.
@@ -127,7 +126,7 @@ High budgets don’t always mean high returns.
 
 This scatter plot illustrates the relationship between movie budgets and their generated revenue.
 
-![Budget vs Revenue](images/budget_vs_revenue.png)
+
 
 - There is a **positive correlation** between budget and revenue, but with **notable outliers**.
 - Some lower-budget films performed surprisingly well.
